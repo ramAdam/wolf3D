@@ -17,8 +17,8 @@ angle = 45
 
 seg = Segment(a, length, angle)
 
-# fieldofview = Fov(a, angle, length)
-# print(fieldofview.getFov())
+fieldofview = Fov(a, angle, length)
+print(fieldofview.getFov())
 nAngle = 45
 # seg.rotate(nAngle)
 
@@ -36,8 +36,8 @@ def update(dt):
 @window.event
 def on_draw():
     window.clear()
-    # fieldofview.draw()
-    seg.draw()
+    fieldofview.draw()
+    # seg.draw()
     
 	
 

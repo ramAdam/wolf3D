@@ -17,5 +17,6 @@ class Fov:
 
     def getFov(self):
         # pdb.set_trace()
-        return anglebtw(self.rseg.getVectorB(), self.lseg.getVectorB())
+        # return anglebtw(self.rseg.getVectorB(), self.lseg.getVectorB())
+        return self.rseg.findAngle(self.lseg)
         

@@ -63,6 +63,6 @@ class Segment:
         """returns a dot product or angle between this segment
            and seg
         """
-        pass
+        return anglebtw(self.getVectorB(), seg.getVectorB())
         
         
